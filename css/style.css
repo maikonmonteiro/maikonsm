@@ -1,0 +1,181 @@
+@charset "utf-8";
+body {
+   
+ font-family: Arial;
+ margin: 0;
+
+}
+
+.btnpadrao {
+    background-image: url(../img/bg_topo.png); /* azul */
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+
+.box-login
+{
+   
+  /*  background-image: url(../img/bg_login.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    border: 1px solid #dddddd; 
+    border-left: 1px solid #dddddd; */
+    margin-left: 3%;
+    
+}
+
+.btn-esqueci-senha
+{
+    clear: both;
+    font-size: 80%;
+    display: block;
+    text-decoration: none;
+    color: #777;
+}
+
+#logado
+{
+  font-size: 80%;  
+  color: White;
+  text-align: right;
+  padding-right: 5%;
+  margin-top: 1.2%;
+  float: right;
+}
+
+#logado #sair
+{
+    color: Red;
+    text-decoration: none;
+}
+
+#logado #usuario
+{
+    font-family: "Comic Sans MS", cursive;
+}
+
+#logado #sair:hover
+{
+    color:White;
+}
+
+.menu {
+    margin-top: 1%;
+    margin-left: 2%;
+    padding-right: 2%;
+    float:left;
+    border-right: 1px solid Black;
+	width: 10%;
+	
+}
+
+
+.menu li{
+    position: relative;
+	display: table;
+	width: 100%;
+	margin-top: 4%;
+	
+}
+
+.menu li a{
+	padding-top: 4%;
+	padding-bottom: 4%;
+	background-image: url(../img/bg_topo.png);
+	display: block;
+	text-decoration: none;
+	color: #FFF;	
+	text-align: center;
+	border-radius: 4px;
+	transition: all 0.5s;
+    cursor: pointer;
+}  
+
+.menu li a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.menu li a span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.menu li a:hover span {
+  padding-right: 25px;
+}
+
+.menu li a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/*
+.menu li a:hover{
+	color:#006;
+    background: #999; 
+	}
+*/
+	
+h2, h4, h5
+{
+    color: #666666;
+}
+
+
+h5
+{
+width: 800px;
+}
+
+th
+{
+ 
+    font-size: 14px;
+
+}
+
+
+td
+{
+  
+   font-size: 12px;
+}
+
+label{
+font-size:80%;
+}
+
+
+.legenda{
+color: #333;
+font-size: 18px;
+}
+
+#rodape
+{
+    text-align:center;
+    color:#666; 
+    font-size: 12px;
+    position:absolute;
+    bottom:0; 
+    width:100%;
+}
+
+
+
+
+
+
